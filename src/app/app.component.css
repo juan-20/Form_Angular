@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Gothic+A1:wght@200&display=swap');
+
+section{
+    background: #F0F9FC;
+    font-family: 'Gothic A1', sans-serif;
+    padding-bottom: 50px;
+}
+
+h1{
+    display: flex;
+    justify-content: center;
+}
+
+form{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center ;
+}
+
+input{
+    outline: none;
+    border: 0px;
+    background: none;
+    border-bottom: 2px solid #000;
+}
+input:hover{
+    border-bottom: 2px solid #F67BAB;
+}
+input:focus{
+    border-bottom: 2px solid #F67BAB;
+}
